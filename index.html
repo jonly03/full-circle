@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+        {fName: "Matt", lName: "Sugu", email: "matt.s@amazon.com", role: "sde", eId: "123432"}
+     -->
+    <form id="my-form">
+        <input placeholder="First name" type="text" name="firstName" id="firstName">
+        <input placeholder="Last name" type="text" name="lastName" id="lastName">
+        <input placeholder="Email" type="email" name="email" id="email">
+        <input placeholder="Role" type="text" name="role" id="role">
+        <input type="submit" value="Add employee">
+    </form>
+
+    <div>
+        <button id="showEmp">Show All Employees</button>
+    </div>
+
+    <div id="empContainer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
